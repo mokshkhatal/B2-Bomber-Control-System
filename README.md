@@ -40,7 +40,7 @@
 ## Simulation and Testing:  
   All these scripts are integrated in Simulink to make a custom block of the non-linear as well as linear model of the aircraft. The block is given inputs from a joystick whose block is available in the  
   Aerospace Toolbox. Outputs from the linear/non-linear blocks and joystick are displayed in the scope.  
-  For better visualization, this process is simulated in Unreal Engine 5 using the aided blocks from Aerospace blockset for customizing aircraft model and simualation environment.
+  For better visualization, this process is simulated in Unreal Engine 5 using the aided blocks from Aerospace blockset for customizing aircraft model and simualation environment.  
   <img width="1021" height="734" alt="Screenshot 2025-10-15 111447" src="https://github.com/user-attachments/assets/cabd06ea-b273-41b3-ba98-4286df11e60f" />
   <img width="1365" height="758" alt="Screenshot 2025-10-15 110957" src="https://github.com/user-attachments/assets/e30f2303-1ba5-4b93-a92e-7dfcde71b123" />
 
