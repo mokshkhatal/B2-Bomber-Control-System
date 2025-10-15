@@ -44,14 +44,14 @@ Simulation and Testing:
 Approximations and Boundaries of Usage for This Version:
   This version is a basic replication attempt of the control system solely for educational purpose so it has certain limitations due to unavailability of wind tunnel testing and CFD data.
   Many assumptions are also made for simplicity of the project whcich do not significantly affect its resemblance from real life. Key assumptions and limitations:
-  >> The air density is taken as a constant mean value for range 0-10000 ft.
-  >> Time taken by control surfaces to move is considered 0.
-  >> Mid elevons and inboard elevons are considered to be single inborad elevons for simplicity.
-  >> 4 Engines are replaced by 2 engines while keeping the total thrust same for simplicity.
-  >> Split drag rudders also produce a rolling moment which needs to be countered by elevons.
-  >> Coefficients of relation between moment and control surface delfection are derived from CFD data for flying wing design not specifically B2 bomber airframe.
-  >> The skeletal mesh of the aircraft used for simulation does not include animations for control surface delfelections to keep it simple.
-  >> Takeoff/Landing system is completely ignored as the flight simulation is operated for a straight level trim point.
+  > The air density is taken as a constant mean value for range 0-10000 ft.
+  > Time taken by control surfaces to move is considered 0.
+  > Mid elevons and inboard elevons are considered to be single inborad elevons for simplicity.
+  > 4 Engines are replaced by 2 engines while keeping the total thrust same for simplicity.
+  > Split drag rudders also produce a rolling moment which needs to be countered by elevons.
+  > Coefficients of relation between moment and control surface delfection are derived from CFD data for flying wing design not specifically B2 bomber airframe.
+  > The skeletal mesh of the aircraft used for simulation does not include animations for control surface delfelections to keep it simple.
+  > Takeoff/Landing system is completely ignored as the flight simulation is operated for a straight level trim point.
 
 Further Scopes of Improvement:
   The system is currently trimmed and linearized of straight level flight which can later be appended fo more operating points providing more maneuvers and takeoff/landing.
